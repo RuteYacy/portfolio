@@ -46,7 +46,7 @@ const About = () => {
         <div className='flex flex-col justify-center lg:flex-row lg:items-center lg:gap-x-0 lg:mx-[8%] h-screen'>
           {/* img */}
           <motion.div variants={fadeIn('right', 0.3)} initial='hidden' whileInView={'show'} viewport={{once: false, amount: 0.3}}
-          className='bg-about bg-contain bg-no-repeat bg-center w-[65%] h-[32%] md:w-[35%] md:h-[28%] lg:w-[40%] lg:h-[50%] mix-blend-lighten
+          className='bg-about bg-contain bg-no-repeat bg-center w-[58%] h-[32%] md:w-[35%] md:h-[28%] lg:w-[40%] lg:h-[50%] mix-blend-lighten
           mb-3 md:mb-3 mx-auto'></motion.div>
 
           {/* text */}
@@ -55,7 +55,7 @@ const About = () => {
             className=''>
               <div className='text-center lg:text-left'>
                 <h1 className='font-montserrat uppercase text-gradient text-[22.5px] mb-4 md:mb-4'>About me:</h1>
-                <h3 className='font-montserrat font-black text-[18.5px] md:text-xl mb-1 md:mb-2'>
+                <h3 className='font-montserrat font-black text-[17px] md:text-xl mb-1 md:mb-2'>
                     I'm passionate about diving into new technologies in this fast-paced industry.
                     Starting as a frontend developer, I have broadened my knowledge to embrace full-stack development,
                     bridging the gap between server-side operations and user-facing experiences.
